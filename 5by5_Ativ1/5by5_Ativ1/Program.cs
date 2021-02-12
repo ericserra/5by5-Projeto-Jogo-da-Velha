@@ -10,6 +10,9 @@ namespace _5by5_Ativ1
     {
         static void Main(string[] args)
         {
+        loop: Console.WriteLine("Hello World!");
+            goto loop;
+            Console.ReadKey();
         }
     }
 }

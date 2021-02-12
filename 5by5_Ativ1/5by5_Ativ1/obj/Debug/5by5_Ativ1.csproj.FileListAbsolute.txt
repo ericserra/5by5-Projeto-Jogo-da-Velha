@@ -1,0 +1,7 @@
+C:\Users\erics\OneDrive\Documents\GitHub\5by5-ativ01\5by5_Ativ1\5by5_Ativ1\bin\Debug\5by5_Ativ1.exe.config
+C:\Users\erics\OneDrive\Documents\GitHub\5by5-ativ01\5by5_Ativ1\5by5_Ativ1\bin\Debug\5by5_Ativ1.exe
+C:\Users\erics\OneDrive\Documents\GitHub\5by5-ativ01\5by5_Ativ1\5by5_Ativ1\bin\Debug\5by5_Ativ1.pdb
+C:\Users\erics\OneDrive\Documents\GitHub\5by5-ativ01\5by5_Ativ1\5by5_Ativ1\obj\Debug\5by5_Ativ1.csprojAssemblyReference.cache
+C:\Users\erics\OneDrive\Documents\GitHub\5by5-ativ01\5by5_Ativ1\5by5_Ativ1\obj\Debug\5by5_Ativ1.csproj.CoreCompileInputs.cache
+C:\Users\erics\OneDrive\Documents\GitHub\5by5-ativ01\5by5_Ativ1\5by5_Ativ1\obj\Debug\5by5_Ativ1.exe
+C:\Users\erics\OneDrive\Documents\GitHub\5by5-ativ01\5by5_Ativ1\5by5_Ativ1\obj\Debug\5by5_Ativ1.pdb
