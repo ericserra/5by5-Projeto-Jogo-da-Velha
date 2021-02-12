@@ -1,0 +1,7 @@
+C:\Users\erics\OneDrive\Documents\GitHub\5by5-ativ01\JogoDaVelha-Eric_e_Fernando\JogoDaVelha-Eric_e_Fernando\bin\Debug\JogoDaVelha-Eric_e_Fernando.exe.config
+C:\Users\erics\OneDrive\Documents\GitHub\5by5-ativ01\JogoDaVelha-Eric_e_Fernando\JogoDaVelha-Eric_e_Fernando\bin\Debug\JogoDaVelha-Eric_e_Fernando.exe
+C:\Users\erics\OneDrive\Documents\GitHub\5by5-ativ01\JogoDaVelha-Eric_e_Fernando\JogoDaVelha-Eric_e_Fernando\bin\Debug\JogoDaVelha-Eric_e_Fernando.pdb
+C:\Users\erics\OneDrive\Documents\GitHub\5by5-ativ01\JogoDaVelha-Eric_e_Fernando\JogoDaVelha-Eric_e_Fernando\obj\Debug\JogoDaVelha-Eric_e_Fernando.csprojAssemblyReference.cache
+C:\Users\erics\OneDrive\Documents\GitHub\5by5-ativ01\JogoDaVelha-Eric_e_Fernando\JogoDaVelha-Eric_e_Fernando\obj\Debug\JogoDaVelha-Eric_e_Fernando.csproj.CoreCompileInputs.cache
+C:\Users\erics\OneDrive\Documents\GitHub\5by5-ativ01\JogoDaVelha-Eric_e_Fernando\JogoDaVelha-Eric_e_Fernando\obj\Debug\JogoDaVelha-Eric_e_Fernando.exe
+C:\Users\erics\OneDrive\Documents\GitHub\5by5-ativ01\JogoDaVelha-Eric_e_Fernando\JogoDaVelha-Eric_e_Fernando\obj\Debug\JogoDaVelha-Eric_e_Fernando.pdb
