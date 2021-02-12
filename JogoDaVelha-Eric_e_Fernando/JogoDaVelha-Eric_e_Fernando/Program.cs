@@ -11,6 +11,7 @@ namespace JogoDaVelha_Eric_e_Fernando
         static void Main(string[] args)
         {
             char[,] posicoes = new char[3, 3];
+            int alt = 0;
         }
     }
 }
