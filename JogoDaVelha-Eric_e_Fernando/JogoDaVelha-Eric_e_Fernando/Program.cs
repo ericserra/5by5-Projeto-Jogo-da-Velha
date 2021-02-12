@@ -10,7 +10,7 @@ namespace JogoDaVelha_Eric_e_Fernando
     {
         static void Main(string[] args)
         {
-            string[,] posicoes = new string[3, 3];
+            char[,] posicoes = new char[3, 3];
         }
     }
 }
