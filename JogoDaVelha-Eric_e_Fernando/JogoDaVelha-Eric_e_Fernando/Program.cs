@@ -11,9 +11,24 @@ namespace JogoDaVelha_Eric_e_Fernando
         static void Main(string[] args)
         {
             string[,] matriz = new string[3, 3];
-
-
-
+            int[,] matrizInteira = new int[3, 3];
+            matrizInteira[0, 0] = 1;
+            matrizInteira[0, 1] = 2;
+            matrizInteira[0, 2] = 3;
+            matrizInteira[1, 0] = 4;
+            matrizInteira[1, 1] = 5;
+            matrizInteira[1, 2] = 6;
+            matrizInteira[2, 0] = 7;
+            matrizInteira[2, 1] = 8;
+            matrizInteira[2, 2] = 9;
+            for (int i = 0; i < matrizInteira.GetLength(0); i++)
+            {
+                for (int j = 0; j < matrizInteira.GetLength(1); j++)
+                {
+                    Console.Write(matrizInteira[i, j] + "\t");
+                }
+                Console.WriteLine();
+            }
             Imprimir_logo(matriz);
             Console.ReadKey();
         }
