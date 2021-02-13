@@ -11,15 +11,17 @@ namespace JogoDaVelha_Eric_e_Fernando
         static void Main(string[] args)
         {
             int[,] matriz = new int[3, 3];
-            char[,] posicoes = new char[3, 3];
-            int alt = 0;
         }
 
-        static void printMatriz()
+        static void Imprimir_logo()
         {
 
         }
-        static void compararPosicoes()
+        static void verificarPosicoes()
+        {
+
+        }
+        static void verificaStatus()
         {
 
         }
