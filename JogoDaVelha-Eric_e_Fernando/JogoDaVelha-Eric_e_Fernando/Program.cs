@@ -21,21 +21,16 @@ namespace JogoDaVelha_Eric_e_Fernando
             matrizInteira[2, 0] = 7;
             matrizInteira[2, 1] = 8;
             matrizInteira[2, 2] = 9;
-            for (int i = 0; i < matrizInteira.GetLength(0); i++)
-            {
-                for (int j = 0; j < matrizInteira.GetLength(1); j++)
-                {
-                    Console.Write(matrizInteira[i, j] + "\t");
-                }
-                Console.WriteLine();
-            }
+            Console.WriteLine("Escolha uma das posições para começar a jogar\n");
             Imprimir_logo(matriz, matrizInteira);
             Console.ReadKey();
         }
 
         static void Imprimir_logo(string[,] matriz, int[,] matrizInteira)
         {
-            Console.WriteLine("_"+);
+            Console.WriteLine("_"+matrizInteira[0,0]+"_||_"+matrizInteira[0,1]+"_||_"+matrizInteira[0,2]+"_");
+            Console.WriteLine("_"+matrizInteira[1,0]+"_||_"+matrizInteira[1,1]+"_||_"+matrizInteira[1,2]+"_");
+            Console.WriteLine("_"+matrizInteira[2,0]+"_||_"+matrizInteira[2,1]+"_||_"+matrizInteira[2,2]+"_");
         }
         static void verificarPosicoes(int[,] inteira, string[,] matriz, ref int jogada, int jogador )
         {
