@@ -29,19 +29,13 @@ namespace JogoDaVelha_Eric_e_Fernando
                 }
                 Console.WriteLine();
             }
-            Imprimir_logo(matriz);
+            Imprimir_logo(matriz, matrizInteira);
             Console.ReadKey();
         }
 
-        static void Imprimir_logo(string[,] matriz)
+        static void Imprimir_logo(string[,] matriz, int[,] matrizInteira)
         {
-            for (int i = 0; i < matriz.GetLength(0); i++)
-            {
-                for (int j = 0; j < matriz.GetLength(1); j++)
-                {
-                    Console.Write(matriz[i, j]);
-                }
-            }
+            Console.WriteLine("_"+);
         }
         static void verificarPosicoes(int[,] inteira, string[,] matriz, ref int jogada, int jogador )
         {
