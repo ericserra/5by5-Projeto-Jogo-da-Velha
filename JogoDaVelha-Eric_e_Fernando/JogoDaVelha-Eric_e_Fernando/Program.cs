@@ -10,6 +10,7 @@ namespace JogoDaVelha_Eric_e_Fernando
     {
         static void Main(string[] args)
         {
+            int[,] matriz = new int[3, 3];
             char[,] posicoes = new char[3, 3];
             int alt = 0;
         }
@@ -18,6 +19,9 @@ namespace JogoDaVelha_Eric_e_Fernando
         {
 
         }
+        static void compararPosicoes()
+        {
 
+        }
     }
 }
