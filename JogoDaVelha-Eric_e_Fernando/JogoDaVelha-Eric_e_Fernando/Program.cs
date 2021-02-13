@@ -11,7 +11,11 @@ namespace JogoDaVelha_Eric_e_Fernando
         static void Main(string[] args)
         {
             string[,] matriz = new string[3, 3];
+            int[,] inteira = new int[3, 3];
+            int jogada = 0, jogador = 0;
+            
 
+            verificarPosicoes(inteira, matriz, ref jogada, jogador);
 
 
             Imprimir_logo(matriz);
