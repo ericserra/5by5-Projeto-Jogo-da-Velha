@@ -10,17 +10,42 @@ namespace JogoDaVelha_Eric_e_Fernando
     {
         static void Main(string[] args)
         {
-            int[,] matriz = new int[3, 3];
-            char[,] posicoes = new char[3, 3];
-            int alt = 0;
+            string[,] matriz = new string[3, 3];
+            Imprimir_logo(matriz);
+            Console.ReadKey();
         }
 
-        static void printMatriz()
+        static void Imprimir_logo(string[,] matriz)
+        {
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    Console.Write(matriz[i, j]);
+                }
+            }
+        }
+        static void verificarPosicoes()
         {
 
         }
-        static void compararPosicoes()
+        static int verificaStatus()
         {
+            if (true)
+            {
+                return 0;
+            }
+            else if (1 < 2)
+            {
+                return 1;
+            }
+            else
+            {
+                if (2 < 3)
+                {
+                    return 2;
+                }
+            }
 
         }
     }
