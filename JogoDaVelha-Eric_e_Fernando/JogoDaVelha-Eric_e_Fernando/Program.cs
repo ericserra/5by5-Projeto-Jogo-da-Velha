@@ -11,28 +11,50 @@ namespace JogoDaVelha_Eric_e_Fernando
         static void Main(string[] args)
         {
             string[,] matriz = new string[3, 3];
-            int[,] matrizInteira = new int[3, 3];
-            matriz[0, 0] = "1";
-            matriz[0, 1] = "2";
-            matriz[0, 2] = "3";
-            matriz[1, 0] = "4";
-            matriz[1, 1] = "5";
-            matriz[1, 2] = "6";
-            matriz[2, 0] = "7";
-            matriz[2, 1] = "8";
-            matriz[2, 2] = "9";
-            Console.WriteLine("Escolha uma das posições para começar a jogar\n");
-            Imprimir_logo(matriz, matrizInteira);
+            int[,] Mapa = new int[3, 3];
+            Console.WriteLine("Escolha uma das posições para começar a jogar\nTurno 1");
+            Imprimir_jogo(matriz, Mapa);
             Console.ReadKey();
             
         }
 
-        static void Imprimir_logo(string[,] matriz, int[,] matrizInteira)
+        static void Imprimir_jogo(string[,] matriz, int[,] Mapa)
         {
-            
-            Console.WriteLine("_"+matriz[0,0]+"_||_"+matriz[0,1]+"_||_"+matriz[0,2]+"_");
-            Console.WriteLine("_"+matriz[1,0]+"_||_"+matriz[1,1]+"_||_"+matriz[1,2]+"_");
-            Console.WriteLine("_"+matriz[2,0]+"_||_"+matriz[2,1]+"_||_"+matriz[2,2]+"_");
+            Console.WriteLine("Escolha uma das posições baseadas no mapa para fazer sua jogada!\n");
+            int contador = 1;
+            for (int i = 0; i < Mapa.GetLength(0); i++)
+            {
+                for (int j = 0; j < Mapa.GetLength(1); j++)
+                {
+                    Mapa[i, j] = contador;
+                    contador++;
+                    Console.Write("[" + Mapa[i, j] + "]");
+                    if (j != Mapa.GetLength(1) - 1)
+                    {
+                        Console.Write("" + "\t|" + "");
+                    }
+                }
+                if (i != Mapa.GetLength(0) - 1)
+                {
+                    Console.WriteLine("\n------------------------");
+                }
+            }
+            Console.WriteLine("\n");
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    Console.Write(matriz[i, j]);
+                    if (j != matriz.GetLength(1) - 1)
+                    {
+                        Console.Write("\t|");
+                    }
+                }
+                if (i != matriz.GetLength(0) - 1)
+                {
+                    Console.WriteLine("\n------------------------");
+                }
+            }
         }
         static void verificarPosicoes(int[,] inteira, string[,] matriz, ref int jogada, int jogador )
         {
@@ -43,13 +65,13 @@ namespace JogoDaVelha_Eric_e_Fernando
                     if ((jogada == inteira[i, j])&&(matriz==null)&&(jogador == 1))
                     {
                         matriz[i, j] = "X";
-                        Imprimir_logo(matriz, inteira);
+                        Imprimir_jogo(matriz, inteira);
                     }
                     else
                         if ((jogada == inteira[i, j]) && (matriz == null) && (jogador == 2))
                         {
                             matriz[i, j] = "X";
-                            Imprimir_logo(matriz, inteira);
+                            Imprimir_jogo(matriz, inteira);
                         }
                         else
                         {
