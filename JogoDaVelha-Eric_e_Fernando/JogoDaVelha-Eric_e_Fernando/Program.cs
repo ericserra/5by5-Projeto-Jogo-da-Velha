@@ -11,6 +11,9 @@ namespace JogoDaVelha_Eric_e_Fernando
         static void Main(string[] args)
         {
             string[,] matriz = new string[3, 3];
+
+
+
             Imprimir_logo(matriz);
             Console.ReadKey();
         }
@@ -25,28 +28,47 @@ namespace JogoDaVelha_Eric_e_Fernando
                 }
             }
         }
-        static void verificarPosicoes()
+        static void verificarPosicoes(int[,] inteira, string[,] matriz, ref int jogada, int jogador )
         {
-
-        }
-        static int verificaStatus()
-        {
-            if (true)
+            for (int i = 0; i < 2; i++)
             {
-                return 0;
-            }
-            else if (1 < 2)
-            {
-                return 1;
-            }
-            else
-            {
-                if (2 < 3)
+                for (int j = 0; j < 2; i++)
                 {
-                    return 2+5;
+                    if ((jogada == inteira[i, j])&&(matriz==null)&&(jogador == 1))
+                    {
+                        matriz[i, j] = "X";
+                        Imprimir_logo(matriz, inteira);
+                    }
+                    else
+                        if ((jogada == inteira[i, j]) && (matriz == null) && (jogador == 2))
+                        {
+                            matriz[i, j] = "X";
+                            Imprimir_logo(matriz, inteira);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Posição invalida jogue novamente");
+                            jogada = int.Parse(Console.ReadLine());
+                            verificarPosicoes(inteira, matriz, ref jogada, jogador);
+                        }
+
+
+
                 }
+
+
+
             }
+        }
+        static void verificaStatus(int[,] numeros, int[] jogador1, int[] jogador2)
+        {
+            for(int i = 0; i < 2; i++)
+                { 
+                   
+
+                }
 
         }
+
     }
 }
