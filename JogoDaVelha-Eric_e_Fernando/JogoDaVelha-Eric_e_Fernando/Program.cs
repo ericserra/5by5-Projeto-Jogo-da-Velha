@@ -13,5 +13,11 @@ namespace JogoDaVelha_Eric_e_Fernando
             char[,] posicoes = new char[3, 3];
             int alt = 0;
         }
+
+        static void printMatriz()
+        {
+
+        }
+
     }
 }
